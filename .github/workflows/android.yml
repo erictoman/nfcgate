@@ -7,7 +7,7 @@ on:
     branches: [ "v2" ]
 
 jobs:
-    submodule-checkout:
+  submodule-checkout:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
